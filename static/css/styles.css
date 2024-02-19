@@ -761,7 +761,8 @@ progress {
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
-13  flex-shrink: 0;
+.row > * {
+  flex-shrink: 0;
   width: 100%;
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -11487,6 +11488,7 @@ html {
     transition: padding-top 0.3s, padding-bottom 0.3s;
     color: #395956;
   }
+}
 
 @media (min-width: 992px) {
   #mainNav {
@@ -11623,8 +11625,5 @@ ul {
 li {
   padding: 7px;
 }
-
-
-
 
 
