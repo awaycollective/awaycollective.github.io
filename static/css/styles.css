@@ -79,9 +79,13 @@
   padding: 15px;
 }
 
+#about .member {
+  width: 100%;
+}
 
-#about h3 {
-display: block;
+
+#about .member h3 {
+display: inline-block;
 padding: 10px;
 margin-left: 10%;
 background-color: #261B23;
@@ -90,7 +94,7 @@ border-color: #D5D9B8;
 border-style: solid;
 }
 
-#about p {
+#about .member p {
 display: block;
 padding: 15px;
 padding-bottom: 50px;
@@ -148,10 +152,6 @@ font-size: 120%;
   :root {
     scroll-behavior: smooth;
   }
-}
-
-.members i {
-  visibility: hidden;
 }
 
 body {
