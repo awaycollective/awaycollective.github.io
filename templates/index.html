@@ -52,17 +52,17 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html#portfolio">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#gallery">
                 Gallery
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html#about">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#members">
                 Members
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html#contact">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#press">
                 Press
               </a>
             </li>
@@ -100,10 +100,10 @@
         </p>
       </div>
     </header>
-    <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio">
+    <!-- Gallery Section-->
+    <section class="page-section gallery" id="gallery">
       <div class="container">
-        <!-- Portfolio Section Heading-->
+        <!-- Gallery Section Heading-->
         <h2
           class="page-section-heading text-center text-uppercase text-secondary mb-0"
         >
@@ -117,21 +117,21 @@
           </div>
           <div class="divider-custom-line"></div>
         </div>
-        <!-- Portfolio Grid Items-->
+        <!-- Gallery Grid Items-->
         <div class="row justify-content-center">
           {% for work in works %}
-          <!-- Portfolio Item {{loop.index}}-->
+          <!-- Gallery Item {{loop.index}}-->
           <div class="col-md-6 col-lg-4">
             <div
-              class="portfolio-item mx-auto"
+              class="gallery-item mx-auto"
               data-bs-toggle="modal"
-              data-bs-target="#portfolioModal{{loop.index}}"
+              data-bs-target="#galleryModal{{loop.index}}"
             >
               <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                class="gallery-item-caption d-flex align-items-center justify-content-center h-100 w-100"
               >
                 <div
-                  class="portfolio-item-caption-content text-center text-white"
+                  class="gallery-item-caption-content text-center text-white"
                 >
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
@@ -148,10 +148,10 @@
         </div>
       </div>
     </section>
-    <!-- About Section-->
-    <section class="page-section bg-primary text-white mb-0" id="about">
+    <!-- Members Section-->
+    <section class="page-section bg-primary text-white mb-0" id="members">
       <div class="container">
-        <!-- About Section Heading-->
+        <!-- Members Section Heading-->
         <h2 class="page-section-heading text-center text-uppercase text-white">
           Members
         </h2>
@@ -163,7 +163,7 @@
           </div>
           <div class="divider-custom-line"></div>
         </div>
-        <!-- About Section Content-->
+        <!-- Members Section Content-->
         <div class="row">
           {% for member in members %}
           <div class="member">
@@ -176,10 +176,10 @@
         </div>
       </div>
     </section>
-    <!-- Contact Section-->
-    <section class="page-section" id="contact">
+    <!-- Press Section-->
+    <section class="page-section" id="press">
       <div class="container">
-        <!-- Contact Section Heading-->
+        <!-- Press Section Heading-->
         <h2
           class="page-section-heading text-center text-uppercase text-secondary mb-0"
         >
@@ -237,14 +237,14 @@
         </h6>
       </section>
 
-      <!-- Portfolio Modals-->
+      <!-- Gallery Modals-->
       {% for work in works %}
-      <!-- Portfolio Modal {{loop.index}}-->
+      <!-- Gallery Modal {{loop.index}}-->
       <div
-        class="portfolio-modal modal fade"
-        id="portfolioModal{{loop.index}}"
+        class="gallery-modal modal fade"
+        id="galleryModal{{loop.index}}"
         tabindex="-1"
-        aria-labelledby="portfolioModal{{loop.index}}"
+        aria-labelledby="galleryModal{{loop.index}}"
         aria-hidden="true"
       >
         <div class="modal-dialog modal-xl">
@@ -261,13 +261,13 @@
               <div class="container">
                 <div class="row justify-content-center">
                   <div class="col-lg-8">
-                    <!-- Portfolio Modal - Image-->
+                    <!-- Gallery Modal - Image-->
                     <img
                       class="img-fluid rounded mb-5"
                       src="{{work.src}}"
                       alt="{{work.alt}}"
                     />
-                    <!-- Portfolio Modal - Text-->
+                    <!-- Gallery Modal - Text-->
                     <p class="mb-4"><i>{{work.name}}</i> by {{work.author}}</p>
                     <button class="btn btn-primary" data-bs-dismiss="modal">
                       <i class="fas fa-xmark fa-fw"></i>

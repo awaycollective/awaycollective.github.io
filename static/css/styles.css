@@ -79,12 +79,12 @@
   padding: 15px;
 }
 
-#about .member {
+#members .member {
   width: 100%;
 }
 
 
-#about .member h3 {
+#members .member h3 {
 display: inline-block;
 padding: 10px;
 margin-left: 10%;
@@ -94,7 +94,7 @@ border-color: #D5D9B8;
 border-style: solid;
 }
 
-#about .member p {
+#members .member p {
 display: block;
 padding: 15px;
 padding-bottom: 50px;
@@ -692,7 +692,7 @@ progress {
 
 }
 
-.portfolio-item img {
+.gallery-item img {
   object-fit: cover;
   padding: 1rem;
   width: 500px;
@@ -11569,7 +11569,7 @@ html {
     font-size: 1.5rem;
   }
 }
-.portfolio .portfolio-item {
+.gallery .gallery-item {
   cursor: pointer;
   position: relative;
   display: block;
@@ -11578,7 +11578,7 @@ html {
   overflow: hidden;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption {
+.gallery .gallery-item .gallery-item-caption {
   position: absolute;
   top: 0;
   left: 0;
@@ -11586,25 +11586,25 @@ html {
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
-.portfolio .portfolio-item .portfolio-item-caption:hover {
+.gallery .gallery-item .gallery-item-caption:hover {
   opacity: 1;
 }
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.gallery .gallery-item .gallery-item-caption .gallery-item-caption-content {
   font-size: 1.5rem;
 }
 
 
-.portfolio-modal .btn-close {
+.gallery-modal .btn-close {
   color: #1abc9c;
   font-size: 2rem;
   padding: 1rem;
 }
-.portfolio-modal .portfolio-modal-title {
+.gallery-modal .gallery-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
 }
 @media (min-width: 992px) {
-  .portfolio-modal .portfolio-modal-title {
+  .gallery-modal .gallery-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
   }
