@@ -4,14 +4,14 @@ This is the website for the AWAY collective, served at <https://awaycollective.o
 
 ## Development
 
-To test the website locally, you will need Zola. Follow the installation instructions 
+To test the website locally, you will need Zola. Follow the installation instructions
 [here](https://www.getzola.org/documentation/getting-started/installation/).
 
-Once you have zola, you can run `zola serve` in this folder to serve the website. It'll 
+Once you have zola, you can run `zola serve` in this folder to serve the website. It'll
 output a link you can look at in your browser. The page will automatically reload when
 you make changes to the content.
 
-To change members, press articles, or works, update the JSON files in `meta`. Note that
+To change members or works, update the JSON files in `meta`. Note that
 you will need to update the files in `static` if you're planning on adding to or changing
 the works.
 
@@ -21,7 +21,7 @@ it will be automatically deployed to the website.
 
 ## Miscellaneous
 
-This is a conversion of the original site, produced by [Smittable LLC](https://smittable.net/), 
+This is a conversion of the original site, produced by [Smittable LLC](https://smittable.net/),
 to a Zola template to allow for modification by other AWAY members. Original credit for the
 website resides with them.
 
