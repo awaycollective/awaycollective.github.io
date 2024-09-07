@@ -85,25 +85,29 @@
 
 
 #members .member h3 {
-display: inline-block;
-padding: 10px;
-margin-left: 10%;
-background-color: #261B23;
-border-radius: 15px;
-border-color: #D5D9B8;
-border-style: solid;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10%;
+  background-color: #261B23;
+  border-radius: 15px;
+  border-color: #D5D9B8;
+  border-style: solid;
 }
 
 #members .member p {
-display: block;
-padding: 15px;
-padding-bottom: 50px;
-padding-top: 20px;
-margin-left: 15%;
-margin-right: 15%;
-text-align: left;
-color: #261B23;
-font-size: 120%;
+  display: block;
+  padding: 15px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: left;
+  color: #261B23;
+  font-size: 120%;
+}
+
+#code-of-ethics {
+  font-size: 1.25rem;
 }
 
 #Footer {
