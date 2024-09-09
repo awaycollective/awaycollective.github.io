@@ -190,5 +190,17 @@
         "alt": "A short stem blue rose in a frost covered vase, a beam of light is hitting the rose from the upper lefthand side.",
         "name": "Blue Rose in a Vase",
         "author": "Lumiat"
+    },
+    {
+        "src": "assets/img/portfolio/anthony1.jpg",
+        "alt": "A vast cavern chamber, brightly lit. It is extremely dense, almost every possible surface covered with intricate engravings, strange fungi, inhuman statues, and countless other mysteries. In the center, a single figure carved from purple-blue stone sits on a pedestal. Behind them, a fungal city-tree reaches up toward curved arches and windows into other worlds. The central figure is overshadowed by two gigantic statues on each side. Into these larger figures, curving passageways and odd buildings have been carved. Both are faceless, the voids where their faces would be opening up into portals under different skies. Beneath the statues, water flows through innumerable branching tunnels and sits crystalline in still, shallow lakes amidst the ruins and mushrooms.",
+        "name": "Fungiwood",
+        "author": "Anthony"
+    },
+    {
+        "src": "assets/img/portfolio/anthony2.jpg",
+        "alt": "A gigantic surreal antequated library, viewed from above. It seems almost more grown than built, with structures of hardwood and marble combining in ways that show little in the way of unified architectural intent. No living creatures are present except the occasional patch of moss, but the scene is filled with numerous and diverse statues, robed figures and strange beasts carved from a wide assortment of materials and scattered about with no clear intent. The scene has an almost fractal quality, with details repeating at every possible scale.",
+        "name": "isolibrary",
+        "author": "Anthony"
     }
 ]
