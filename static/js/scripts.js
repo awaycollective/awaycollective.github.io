@@ -5,7 +5,7 @@
 */
 //
 // Scripts
-// 
+//
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
-    // Shrink the navbar 
+    // Shrink the navbar
     navbarShrink();
 
     // Shrink the navbar when page is scrolled
@@ -51,4 +51,18 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // Only load full-resolution images when the gallery item is opened
+    document.querySelectorAll('.gallery-item').forEach(item => {
+        item.addEventListener('click', () => {
+            const index = item.id.substring('gallery-item'.length);
+            const image = document.querySelector(`img#work${index}`);
+            if (image !== null) {
+                const fullSrc = image.getAttribute('data-fullsrc')
+                image.setAttribute('src', fullSrc);
+            } else {
+                console.error(`Gallery image ${index} not found`);
+            }
+        });
+    });
 });
+
