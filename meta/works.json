@@ -96,6 +96,30 @@
         "author": "Kara"
     },
     {
+        "src": "assets/img/portfolio/rhapsody1.png",
+        "alt": "A painting of a girl in a fur-lined coat, holding a beam saber. She stares at the viewer with a neutral expression. The background is mostly white, with smoky red and black abstract patterns.",
+        "name": "Fine Red Mist",
+        "author": "RhapsodyXVI"
+    },
+		{
+        "src": "assets/img/portfolio/rhapsody2.jpg",
+        "alt": "A painting of an abandoned town street, with a person on a yellow motorcycle on the road. The painting style is blocky and scratchy, with dark shadows painted over the piece.",
+        "name": "Long Way Home",
+        "author": "RhapsodyXVI"
+    },
+		{
+        "src": "assets/img/portfolio/rhapsody3.png",
+        "alt": "Pixel art of a girl with long yellow and pink hair that flows in the wind. She's wearing a flowing dress and stands in a field of vibrant pink and blue foliage, with a jagged mountain standing behind her. The sky behind the mountain is made up of varying shades of orange, red, and teal.",
+        "name": "Rhapsody",
+        "author": "RhapsodyXVI"
+    },
+		{
+        "src": "assets/img/portfolio/rhapsody4.png",
+        "alt": "A saturated painting of red, yellow, and green leaves, with a nondescript yellow box to the left. the red foliage bursts from the center of the painting, while green foliage surrounds it. There's a small dirt path beneath the red foliage.",
+        "name": "Untitled Abstract Piece (One of Many)",
+        "author": "RhapsodyXVI"
+    },
+    {
         "src": "assets/img/portfolio/star1.png",
         "alt": "A monitor surrounded by flowers in a cel shaded illustration style.",
         "name": "Screenbloom series - A combination of AI art and traditional illustration",
