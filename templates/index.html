@@ -131,7 +131,7 @@
                 <div
                   class="gallery-item-caption-content text-center text-white"
                 >
-                  <i class="fas fa-plus fa-3x"></i>
+                  <i class="fas fa-plus fa-3x">{{work.name}}<br /><small>{{work.author}}</small></i>
                 </div>
               </div>
               {% set scaled_img = resize_image(path=work.src, width=512, height=512, op="fit", format="jpg") %}

@@ -11591,7 +11591,7 @@ html {
   background-color: rgba(26, 188, 156, 0.9);
 }
 .gallery .gallery-item .gallery-item-caption:hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 .gallery .gallery-item .gallery-item-caption .gallery-item-caption-content {
   font-size: 1.5rem;
