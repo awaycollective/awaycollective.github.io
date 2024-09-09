@@ -43,5 +43,10 @@
         "name": "Weird Mustard",
         "url": "https://www.redbubble.com/people/WeirdMustard/",
         "description": "Just an artist exploring the limits of what AI art can and can not do to show the viewer what I'm thinking"
+    },
+    {
+        "name": "Anthony",
+        "url": "https://centuryglass.us",
+        "description": "I'm a software developer, but I tinker with a lot of things. I've always been interested in the intersection of programming and art, and I've been following the AI art scene since the release of DeepDream in 2015."
     }
 ]
