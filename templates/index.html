@@ -134,7 +134,7 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              {% set scaled_img = resize_image(path=work.src, width=300, height=300, format="jpg") %}
+              {% set scaled_img = resize_image(path=work.src, width=512, height=512, op="fit", format="jpg") %}
               <img class="img-fluid" src="{{scaled_img.url}}" alt="{{work.alt}}" />
             </div>
           </div>
@@ -247,7 +247,7 @@
 
       <!-- Gallery Modals-->
       {% for work in works %}
-      {% set scaled_img = resize_image(path=work.src, width=300, height=300, format="jpg") %}
+      {% set scaled_img = resize_image(path=work.src, width=512, height=512, op="fit", format="jpg") %}
       <!-- Gallery Modal {{loop.index}}-->
       <div
         class="gallery-modal modal fade"
