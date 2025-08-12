@@ -48,5 +48,10 @@
         "name": "Anthony",
         "url": "https://centuryglass.us",
         "description": "I'm a software developer, but I tinker with a lot of things. I've always been interested in the intersection of programming and art, and I've been following the AI art scene since the release of DeepDream in 2015."
+    },
+    {
+        "name": "Milja Moss",
+        "url": "https://miljamoss.neocities.org/",
+        "description": "Game developer and artist, with a long-standing interest in all things generative. I find generative AI to be a fascinating tool that deserves exploration outside of profit-seeking."
     }
 ]

@@ -1,0 +1,14 @@
+[
+    {
+        "id":"software-and-plugins",
+        "display":"Software & Plugins"
+    },
+    {
+        "id":"theory",
+        "display":"Reading & Theory"
+    },
+    {
+        "id": "tutorials",
+        "display": "Guides & Tutorials"
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "category": "software-and-plugins",
+        "url": "https://kritaaidiffusion.com/",
+        "title": "Krita AI Diffusion",
+        "description": "A plugin for Krita that seamlessly mixes AI tools with digital art."
+    },
+    {
+        "category": "software-and-plugins",
+        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "title": "Stable Diffusion Web UI",
+        "description": "A simple web UI for Stable Diffusion."
+    },
+    {
+        "category": "software-and-plugins",
+        "url": "https://www.comfy.org/",
+        "title": "ComfyUI",
+        "description": "Advanced node-based UI for running generative workflows."
+    },
+    {
+        "category": "software-and-plugins",
+        "url": "https://github.com/centuryglass/IntraPaint",
+        "title": "IntraPaint",
+        "description": "A standalone image editor that combines digital painting with AI."
+    },
+    {
+        "category": "software-and-plugins",
+        "url": "https://stableprojectorz.com/",
+        "title": "Stable Projectorz",
+        "description": "A tool for generating 3D models and textures."
+    },
+    {
+        "category": "software-and-plugins",
+        "url": "https://lmstudio.ai/",
+        "title": "LM Studio",
+        "description": "Run large language models locally on your computer. Private, free, and open source."
+    },
+    {
+        "category": "software-and-plugins",
+        "url": "https://github.com/LostRuins/koboldcpp",
+        "title": "KoboldCPP",
+        "description": "Another way to run large language models locally, good for intermediate users."
+    },
+    
+    
+    {
+        "category": "tutorials",
+        "url": "https://www.youtube.com/watch?v=zqgKj9yexMY",
+        "title": "How To Use Forge",
+        "description": "Forge is an UI that allows you to run Stable Diffusion locally. This video will get you started."
+    },
+    
+    
+    {
+        "category": "theory",
+        "url": "https://www.tumblr.com/reachartwork/780743855202058240/this-post-has-nothing-to-do-with-the-ethics-of",
+        "title": "PLEASE JUST LET ME EXPLAIN",
+        "description": "An explainer on how image generation works by Curio."
+    },
+    {
+        "category": "theory",
+        "url": "https://blog.giovanh.com/blog/2024/08/18/is-ai-eating-all-the-energy-part-1-of-2/",
+        "title": "Is AI eating all the energy?",
+        "description": "A thorough examination of AI energy usage by GiovanH."
+    },
+    {
+        "category": "theory",
+        "url": "https://www.youtube.com/watch?v=lRq0pESKJgg",
+        "title": "How Corporations Hijacked the Anti-AI Movement",
+        "description": "An in-depth essay on AI art by Alexander Avila."
+    },
+    {
+        "category": "theory",
+        "url": "https://miljamoss.neocities.org/Articles/LLMWaterAndEnergyUse",
+        "title": "LLM Water and Energy Use",
+        "description": "An article contextualizing the water and energy use of LLMs by Milja Moss."
+    }
+]

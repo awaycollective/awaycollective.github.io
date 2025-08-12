@@ -21,6 +21,8 @@
 
     {% set members = load_data(path="meta/members.json") %}
     {% set works = load_data(path="meta/works.json") %}
+    {% set resources = load_data(path="meta/resources.json") %}
+    {% set resources_categories = load_data(path="meta/resources_categories.json") %}
   </head>
 
   <body id="page-top">
@@ -53,6 +55,11 @@
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#members">
                 Members
+              </a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#resources">
+                Resources
               </a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
@@ -143,7 +150,7 @@
         </div>
       </div>
     </section>
-    <!-- Members Section-->
+    <!-- Members Section -->
     <section class="page-section bg-primary text-white mb-0" id="members">
       <div class="container">
         <!-- Members Section Heading-->
@@ -171,6 +178,48 @@
         </div>
       </div>
     </section>
+    <!-- Resources Section -->
+    
+    <section class="page-section" id="resources">
+      <div class="container">
+        <!-- Resources Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-white">
+          Resources
+        </h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light"> 
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fa-solid fa-book"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <!-- Disclaimer -->
+        <p class="text-center text-white" style="font-size: 0.95em; font-style: italic; font-weight: normal;">Linked resources are not necessarily affiliated with the AWAY Collective.</p>
+        <!-- Resources Section Content --> 
+        <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: center;">  
+          {% for entry in resources_categories %} 
+          <div style="margin: 2em 4em 2em 4em; height: fit-content;">
+            <!-- Category Title-->
+            <h2 style="color: var(--bs-body-color); margin-bottom: 0.5em;" class="text-white">{{entry.display}}</h2>
+            
+            {% for res in resources %} <!-- Loop through resource group definitions -->
+              {% if res.category == entry.id %} <!-- Slot entries under the correct group  -->
+              
+              <div style="width: 400px;">  
+                <a href="{{res.url}}"><h3 style="font-size: 1em; margin-bottom: 0.5em;">{{res.title}}</h3></a> 
+                <p style="margin-left: 2em;">{{res.description}}</p>
+              </div>
+              
+              {% endif %}
+            {% endfor %}
+            
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    
     <!-- Code of Ethics Section-->
     <section class="page-section" id="code-of-ethics">
       <div class="container">
