@@ -15,6 +15,11 @@ To change members or works, update the JSON files in `meta`. Note that
 you will need to update the files in `static` if you're planning on adding to or changing
 the works.
 
+To add resources, modify `meta/resources.json`. Remember that resources are supposed to be
+geared toward beginners, and they should be free and preferably open source.
+You can add more resource categories to `meta/resources_categories.json` and they will be
+automatically populated by the preprocessing in index.html.
+
 Once you're done, commit to a branch and make a PR. (This process is somewhat complicated.
 Feel free to ask one of us, or your local Claude, for assistance.) When your PR is merged,
 it will be automatically deployed to the website.
